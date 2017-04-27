@@ -49,7 +49,7 @@ namespace TurretClass
   {
     UNDEFINED = 0,
     ENERGY,
-    BULLET,
+    BALLISTIC,
     BIO,
     PLASMA
   };
@@ -59,7 +59,7 @@ namespace TurretClass
     {
     case UNDEFINED: os << "UNDEFINED"; break;
     case ENERGY: os << "ENERGY"; break;
-    case BULLET: os << "BULLET"; break;
+    case BALLISTIC: os << "BALLISTIC"; break;
     case BIO: os << "BIO"; break;
     case PLASMA: os << "PLASMA"; break;
     default: os << "UNKNOWN(" << (int)value << ")"; break;
