@@ -16,7 +16,7 @@ int main()
 
     List* l = new List(400,30,100,100,elements2);
     window.addWidget(l);
-    l->addElement("this has been added");
+    l->addElement("foka moka");
 
     window.startLoop();
     return 0;
