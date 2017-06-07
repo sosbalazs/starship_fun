@@ -1,5 +1,4 @@
 #include "Turret.hpp"
-#include "types.hpp"
 
 Turret::Turret()
 {

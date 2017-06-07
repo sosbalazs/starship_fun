@@ -1,6 +1,8 @@
 #ifndef TURRET_HPP
 #define TURRET_HPP
 
+#include "types.hpp"
+
 class Turret
 {
 public:
