@@ -6,7 +6,8 @@
 enum class ShipClass
 {
   UNDEFINED = 0,
-  HUMAN
+  HUMAN,
+  ROMULAN
 };
 
 inline std::ostream& operator<<(std::ostream &os, ShipClass value)
